@@ -1,0 +1,18 @@
+{
+  "name": "cqrs-example",
+  "version": "1.0.0",
+  "description": "CQRS Example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app",
+    "lint": "eslint account accountLog app"
+  },
+  "author": "Petar Ristov.",
+  "license": "Petar",
+  "devDependencies": {},
+  "dependencies": {
+    "lodash": "4.17.4",
+    "tortoise": "1.0.1"
+  }
+}
